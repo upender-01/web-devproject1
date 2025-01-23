@@ -170,6 +170,8 @@ img:hover{
 .reasons{
     position: relative;
    top: 25px;
+    margin-bottom: 5vh;
+    
 }
 .boxes{
     display: flex;
