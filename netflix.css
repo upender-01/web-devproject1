@@ -10,11 +10,13 @@
     height: 100vh;
 }
 .nav-bar{
+    position:relative;
     display: flex;
     justify-content: space-between;
     padding: 2vh 25vh;
 }
 .nav-btns{
+    position:relative;
     display: flex;
     gap: 10px;
 }
@@ -259,7 +261,7 @@ img:hover{
   }
 @media(max-width:900px) {
     .box1{
-        height: 35vh;
+        height: max-content;
         width: 85vw;
     }
     #image1, #image2, #image3, #image4, #image5, #image6{
